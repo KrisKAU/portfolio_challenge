@@ -17,7 +17,7 @@ GIVEN I need to sample a potential employee's previous work
 
 ## Deployment
 
-My website is available [here](https://github.com/KrisKAU/portfolio_challenge.git).
+My website is available [here](https://kriskau.github.io/portfolio_challenge/).
 
 ## Screenshot
 
