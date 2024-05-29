@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+}
+
+
+header {
+    padding: 0px;
+    font-family: 'Sherif' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #35110c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin: 15px;
+}
+
+header h1 .seo {
+    color: #fa0c0c;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    font-family: 'Sherif' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header nav > a {
+        display: block;
+        color: #fdfdfd;
+        text-decoration: underline;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    header nav > a:hover {
+        background-color: #f70707;
+    }
+
+#about {
+    margin-bottom: 90px;
+}
+
+#about > p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+#about > img {
+    width:800px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #about > h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about > p {
+        margin-top: 0;
+        font-size: 35px;
+    }
+
+#work {
+    padding-bottom: 70px;
+}
+
+
+
+#work > p:first-of-type {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    font-size: 46px;
+    border-bottom: 3px solid;
+    margin-top: 0;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+.project {
+    margin-bottom: 20px;
+    text-decoration: none;
+    width: 45%;
+    color: white;
+    border-color: #051e27;
+    border-width: 1px;
+    border-style: solid;
+}
+
+    .project p {
+        text-align: center;
+        background-color: #387c91;
+        margin: 0;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .project > img:hover + p::before {
+        content: "Go to ";
+        color: orange;
+    }
+
+        .project > p:hover::before {
+            content: "Go to ";
+            color:orange;
+        }
+
+
+#other-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.chalange_1 {
+    max-width: 900px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chalange_1 > img {
+    max-width: 900px;
+    width: 100%;
+    max-height: 600px; 
+    height: 60%;
+    object-position: top;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
+    height: 90%;
+    object-fit:cover;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    background-color: #35110c;
+}
+
+footer > p:first-of-type {
+    font-size: 60px;
+    margin-bottom: 0;
+    color: #c6da99;
+}
+
+footer > p:nth-of-type(2) {
+    font-size: 18px;
+    font-style:italic;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    color: #c6da99;
+}
+
+    footer > div {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 900px;
+        justify-content: space-evenly;
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+
+footer > div > a {
+    color: #c6da99;
+    text-decoration: none;
+}
+
+footer >div > a:hover {
+    transform:translateY(10px);
+    transition-duration: 0.5s;
+}
+
+footer > div > a > p{
+    display: inline-block;
+}
+
+@media screen and (max-width: 1300px) {
+    #content > a {
+        width: 45%;
+    }
+    #about > p {
+        width: 100%;
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #about>h1 {
+        font-size: 40px;
+    }
+
+    #about > p {
+        width: 100%;
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #content > a {
+        width: 90%;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #work> p:first-of-type {
+        font-size: 30px;
+    }
+}
