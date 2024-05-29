@@ -1,4 +1,4 @@
-# Monash Bootcamp Challenge 2
+# Monash Bootcamp Portfolio Challenge 2
 
 ## Project Description
 
@@ -23,4 +23,4 @@ My website is available [here](https://github.com/KrisKAU/portfolio_challenge.gi
 
 How my website looks like
 
-![Screenshot](../assests/images/screenshot.png
+![Screenshot](./assests/images/screenshot.png)
